@@ -40,6 +40,7 @@ def pre_process(images):
 with tf.device('/cpu:0'):
     distorted_images = pre_process(images=x)
 
+#Todo işlemi yapmak için yazdığımız fonksiyon
 def batch_normalization(input, phase, scope):
     return tf.cond(phase,
                    lambda: tf.contrib.layers.batch_norm(input, decay=0.99, is_training=True,
