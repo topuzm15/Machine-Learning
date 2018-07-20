@@ -1,0 +1,1 @@
+Kullanacağımız bu yöntem ile hazır eğitilmiş bir modeli kendi modelimize uyarlayabiliriz. Makinemizin öğreniminin çok uzun sürmesi ve gerekli miktarda datayı bulamama gibi durumlardan bu kısım oldukça önemlidir.
